@@ -1,0 +1,121 @@
+html,body{
+	
+	height:100%;
+
+}
+body{
+	
+	overflow:hidden;
+	margin:0;
+}
+#parent{
+	margin:0;
+	height:100%;
+	background-color:red;
+
+}
+#drawer{
+	
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:pink;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top:0;
+}
+  
+
+
+
+
+#banner{
+	position:relative;
+	width:100%;
+	height:18%;
+	 background-color: #111;
+	
+}
+
+#content{
+	position:relative;
+	width:100%;
+	height:80%;
+	background-color:cyan;
+	 
+	
+	
+}
+#footer{
+	height:2%;
+	width:100%;
+	background-color:blue;
+	
+}
+
+
+#top_ten_resturant{
+	
+    float:left;
+	position:relative;
+	width:16%;
+	height:100%;
+	 background-color:red;
+	
+}
+
+#intra_content{
+	 float:left;
+	position:relative;
+	width:84%;
+	height:100%;
+	 background-color:green;
+	
+	
+}
+
+
+#top_ten_food{
+  
+   position:relative;
+   
+	width:100%;
+	height:25%;
+	 background-color:green;
+
+	
+}
+#resturants{
+	
+	 position:relative;
+     
+  
+	width:100%;
+	height:75%;
+	 background-color:yellow;
+	
+	  
+}
+
+#nav_button
+{
+	position:relative;
+	float:left;
+	width:3%;
+	height:40%;
+	background-color:blue;
+	
+}
+#drawer_button
+{
+	
+	position:relative;
+	float:right;
+	width:22%;
+	height:7%;
+	background-color:blue;
+	
+}
